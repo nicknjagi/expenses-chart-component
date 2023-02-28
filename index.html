@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Frontend Mentor | Expenses chart component</title>
+</head>
+<body>
+    <main>
+        <div class="bal-container">
+            <div>
+                <span>My balance</span>
+                <span class="balance">$921.48</span>
+            </div>
+            <div>
+                <img src="./images/logo.svg" alt="logo">
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <h1>Spending - Last 7 days</h1>
+            <div class="chart">
+                <div>
+                    <div class="bar active" data-title="$12.53"></div>
+                    <small>mon</small>
+                </div>
+                <div>
+                    <div class="bar" data-title="$12.53"></div>
+                    <small>tue</small>
+                </div>
+                <div>
+                    <div class="bar" data-title="$12.53"></div>
+                    <small>wed</small>
+                </div>
+                <div>
+                    <div class="bar" data-title="$12.53"></div>
+                    <small>thu</small>
+                </div>
+                <div>
+                    <div class="bar" data-title="$12.53"></div>
+                    <small>fri</small>
+                </div>
+                <div>
+                    <div class="bar" data-title="$12.53"></div>
+                    <small>sat</small>
+                </div>
+                <div>
+                    <div class="bar" data-title="$12.53"></div>
+                    <small>sun</small>
+                </div>
+            </div>
+            <div class="total-container">
+                <div>
+                    <span>Total this month</span>
+                    <span class="total">$478.33</span>
+                </div>
+                <div>
+                    <span class="percentage">+2.4%</span>
+                    <span>from last month</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
