@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub repo](https://github.com/nicknjagi/expenses-chart-component)
-- Live Site URL: []()
+- Live Site URL: [https://nicknjagi.github.io/expenses-chart-component/](https://nicknjagi.github.io/expenses-chart-component/)
 
 ## My process
 
