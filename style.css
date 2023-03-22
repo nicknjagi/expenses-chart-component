@@ -37,7 +37,7 @@ main {
     justify-content: space-between;
     align-items: center;
     background-color: var(--primary-red);
-    padding: 1rem;
+    padding: 1.25rem;
     margin-bottom: 1rem;
     border-radius: 0.5rem;
     color: var(--neutral-orange);
@@ -59,36 +59,40 @@ span{
 .chart-container {
     background-color: var(--neutral-orange);
     border-radius: 0.5rem;
-    padding: 1rem;
+    padding: 1.5rem 1.25rem;
 }
 
 h1 {
-    margin-bottom: 2rem;
-    font-size: 25px;
+    margin-bottom: 1rem;
+    font-size: 24px;
     color: var(--neutral-d-brown);
 }
 
 .chart {
-    display: flex;
-    justify-content: space-between;
-    gap: 0.75rem;
-    border-bottom: 2px solid var(--neutral-cream);
-    padding: 1rem 0 1.3rem;
-    text-align: center;
-    color: var(--neutral-md-brown);
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.75rem;
+  align-items: flex-end;
+  margin: 1.25rem 0;
+  padding-bottom: 1.25rem;
+  border-bottom: 2px solid var(--neutral-cream) ;
+  text-align: center;
+  height: 220px;
 }
 
 .chart div{
-    flex: 1;
-    min-width:1.5rem;
+  position: relative;
+  border-radius: 3px;
 }
 
 .bar {
-    position: relative;
-    height: 8rem;
-    background-color: var(--primary-red);
-    border-radius: 0.25rem;
-    margin-bottom: 0.5rem;
+  background-color: var(--primary-red);
+  margin-bottom: 0.4rem;
+}
+
+small {
+  color: var(--neutral-md-brown);
+  font-size: 14px;
 }
 
 .bar.active {
@@ -119,7 +123,6 @@ h1 {
 }
 
 [data-title]:hover:after {
-    transition: all 0.1s ease 0.2s;
     visibility: visible;
 }
 
@@ -151,6 +154,12 @@ h1 {
         display: flex;
         align-items: center;
         height: 100vh;
+    }
+    .bars {
+      gap: 1rem;
+    }
+    small{
+      font-size: 14px;
     }
     .bal-container {
         padding: 1rem 2rem;
