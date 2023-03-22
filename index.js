@@ -34,7 +34,7 @@ async function createChart() {
 createChart();
 
 function calcHeight(amount) {
-  const h = Math.floor((amount * 220) / 100);
+  const h = Math.floor((amount * 280) / 100);
   return h;
 }
 
